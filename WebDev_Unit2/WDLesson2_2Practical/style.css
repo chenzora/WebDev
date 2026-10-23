@@ -26,6 +26,7 @@ with a class of "info" */
 all elements with a class of "special"
 */
 .special{
+  text-align: center;
   text-shadow: 2px 2px yellow;
 }
 
