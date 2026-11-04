@@ -31,13 +31,13 @@
 /* Challenge 12: When the visitor moves their mouse over images inside of the element with an id of firstGallery,
                  apply some type of styling using the filter( ) effect
 */
-#firstGallery:hover{
-    grayscale(1)
+#firstGallery img:hover{
+    filter: grayscale(1);
 }
 
 /* Challenge 13: When the visitor moves their mouse over images inside of the element with an id of secondGallery,
                  apply some other type of styling.*/
-#secondGallery:hover{
+#secondGallery img:hover{
     border-radius: 8px;
 }
 
