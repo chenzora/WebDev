@@ -14,7 +14,7 @@
 }
 #nav{
    background-color: green;
-   padding: 20px;
+   padding: 10px;
 }
 body{
    font-family: Arial;
@@ -27,19 +27,22 @@ body{
    Padding: 20px;
 }
 
-#left{
+#Links{
    flex:150px 0 0;
+   border: solid 1px black;
 }
 
-#left a{
+#Links a{
    text-decoration: none;
    padding: 10%;
+   color:black;
 }
 
-#center{
+#Center{
    flex: 3;
+   padding: 10%;
 }
+#Center2{
+   flex: 3;
+   padding: 10%;
 
-#right{
-   flex: 3;
-}
